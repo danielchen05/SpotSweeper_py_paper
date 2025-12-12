@@ -57,8 +57,8 @@ The datasets can be downloaded from the 10x Genomics website:
 3. Update file paths in the corresponding notebooks if necessary.
 
 
-> Notes on preprocessing (e.g., filtering, binning, normalization) are documented **within each notebook**.  
-> Downstream analyses expect an **AnnData** object; feel free to use your preferred method to load the data. (especially for the VisiumHD data)
+> Notes on preprocessing are documented **within each notebook**.  
+> Downstream analyses expect an **AnnData** object; feel free to use your preferred method to load the data. (especially for the Visium HD data)
 
 ---
 

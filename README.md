@@ -13,6 +13,7 @@ It is intended for **reproducibility of the manuscript results** and **does not 
 **Authors:** Xingyi Chen, Michael Totty, Stephanie C. Hicks  
 **Venue:** F1000Research (2026)  
 **DOI:** https://doi.org/10.12688/f1000research.175162.1
+
 ---
 
 ## SpotSweeper-py Package

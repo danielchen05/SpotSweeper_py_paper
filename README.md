@@ -11,9 +11,8 @@ It is intended for **reproducibility of the manuscript results** and **does not 
 
 **Title:** *SpotSweeper-py: spatially-aware quality control metrics for spatial omics data in the Python ecosystem*  
 **Authors:** Xingyi Chen, Michael Totty, Stephanie C. Hicks  
-**Venue:** bioRxiv (2025)  
-**DOI:** https://doi.org/10.64898/2025.12.06.692760
-
+**Venue:** F1000Research (2026)  
+**DOI:** https://doi.org/10.12688/f1000research.175162.1
 ---
 
 ## SpotSweeper-py Package
@@ -30,10 +29,12 @@ https://pypi.org/project/spotsweeper/
 
 All analysis is organized as Jupyter notebooks.
 
-| Notebook | Description |
+| Notebook / Folder | Description |
 |--------|------------|
 | `Visium.ipynb` | Analysis of 10x Visium datasets; comparison of global vs local QC metrics |
 | `VisiumHD.ipynb` | Analysis of 10x Visium HD data at higher spatial resolution |
+| `sensitivity.ipynb` | Supplementary sensitivity analysis of k based on the Visium dataset |
+| `benchmark_r_py/` | Supplementary notebooks and outputs comparing SpotSweeper R software and SpotSweeper-py |
 
 Each notebook is intended to be run **top-to-bottom** after downloading the required data and setting appropriate paths.
 
@@ -64,7 +65,7 @@ The datasets can be downloaded from the 10x Genomics website:
 
 ## Questions?
 
-For questions related to the analysis or manuscript figures, please contact:  
+For questions related to the analysis or manuscript figures, please submit a GitHub issue or contact:  
 Xingyi (Daniel) Chen — xchen274@jh.edu
 
 For questions related to the SpotSweeper-py software package, see:  
